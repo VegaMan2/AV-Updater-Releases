@@ -1,15 +1,15 @@
 {
   "FormatVersion": 1,
-  "PublishedUtc": "2026-11-15T18:16:17.6246181Z",
+  "PublishedUtc": "2026-11-15T21:46:16.5168241Z",
   "Components": [
     {
       "Id": "QSys",
-      "Version": "1.04",
-      "Package": "QSys/1.04/QSys-1.04.zip",
-      "Sha256": "f4731fc94679bd988dbea942af09bdde1c7072ded7a9f5ffad3b5214fcd5ee3c",
-      "Size": 63221,
+      "Version": "1.05",
+      "Package": "QSys/1.05/QSys-1.05.zip",
+      "Sha256": "d8012ae43da2d8ea216ce25f73a022c7167b4e272b2cab98cb8eccd61a69acb0",
+      "Size": 69742,
       "RequiresReinstall": false,
-      "Notes": "Handles the Q-SYS \"not a robot\" check.",
+      "Notes": "Error reports go straight to the developer over the internet, with more detail and personal names and paths removed.",
       "Files": [
         {
           "Path": "CredentialPrompt.ps1",
@@ -29,19 +29,19 @@
         },
         {
           "Path": "QSys-Updater.ps1",
-          "Sha256": "9e825263d531cb94f51a7e33f3cd9e8d97b8ac484c86e8a5768544b97cea1045"
+          "Sha256": "6a842f38acd1caa82af3e2f521f91c559750d211b8ab65de5def2e21b327c07b"
         },
         {
           "Path": "reporting.json",
-          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+          "Sha256": "15325e6f878f88d04002a08aea093f93aea89b06e1795392d865fa2207e2a8a8"
         },
         {
           "Path": "Reporting.ps1",
-          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+          "Sha256": "91bb383d9bb1923497271f688acc7c9f3d073145ec10825c739e56fa716716e4"
         },
         {
           "Path": "settings-changes.json",
-          "Sha256": "cc17ae19903c563b9407c08a61906012dfee9c697702adfbdb019a7d5a5f27de"
+          "Sha256": "716763aef5b06d8330a7bbf87e5d0c25fbc472678c3fc7ec9adb90598637954c"
         },
         {
           "Path": "Setup.cmd",
@@ -57,22 +57,22 @@
         },
         {
           "Path": "version.json",
-          "Sha256": "6393c4bbb570ca109bf884edbd5a5989d2a7ddf8320cce3cd97882f6db473903"
+          "Sha256": "13c15cc55cd32306e9b77261dfc10d8057da2e898a04743049a7e537fb1f6dd6"
         }
       ]
     },
     {
       "Id": "Biamp",
-      "Version": "1.03",
-      "Package": "Biamp/1.03/Biamp-1.03.zip",
-      "Sha256": "d2aab68d4df0f956a45a4f7276db6eda861edba6f18b8e1e36277798e6f9430e",
-      "Size": 48954,
+      "Version": "1.04",
+      "Package": "Biamp/1.04/Biamp-1.04.zip",
+      "Sha256": "fbd3bc64a59a41fb3840cb1de5ebcdf1ebb4c1f068911cc86377f4f686bb43e7",
+      "Size": 55363,
       "RequiresReinstall": false,
-      "Notes": "",
+      "Notes": "Error reports go straight to the developer over the internet, with more detail and personal names and paths removed.",
       "Files": [
         {
           "Path": "Biamp-Updater.ps1",
-          "Sha256": "7ce260a64e8de5fe8177402c3f8635fb9389261c0bb1ae71f3adc3ecc4c7b74c"
+          "Sha256": "80c8a49c364902c73f246221a958dcdab9d3020c5934d3fa01735e694b835943"
         },
         {
           "Path": "Install-BiampUpdater.ps1",
@@ -88,15 +88,15 @@
         },
         {
           "Path": "reporting.json",
-          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+          "Sha256": "15325e6f878f88d04002a08aea093f93aea89b06e1795392d865fa2207e2a8a8"
         },
         {
           "Path": "Reporting.ps1",
-          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+          "Sha256": "91bb383d9bb1923497271f688acc7c9f3d073145ec10825c739e56fa716716e4"
         },
         {
           "Path": "settings-changes.json",
-          "Sha256": "95ee731dc50ebd363fbb258ba6c8d865163a43ba57066938ec1df2ed1c7a4290"
+          "Sha256": "2e747a91225c98bb5bbc9d42d3f5cc152c9e1f3085d44a4ec0e3f533afff60da"
         },
         {
           "Path": "Setup.cmd",
@@ -108,18 +108,18 @@
         },
         {
           "Path": "version.json",
-          "Sha256": "a6433b315edcf213bb2093d462106565635c7bbe9a2d8bf96f58b170a1d7829d"
+          "Sha256": "7670e61bca8f83232be6d0ffba8d824f6a2238b73188d27d93c13a6c4c220fb8"
         }
       ]
     },
     {
       "Id": "Crestron",
-      "Version": "1.03",
-      "Package": "Crestron/1.03/Crestron-1.03.zip",
-      "Sha256": "df6e0b181bfb4e4a6d25c9b072762bf2e19184657e50f37344c7e8ad83ebd831",
-      "Size": 4954404,
+      "Version": "1.04",
+      "Package": "Crestron/1.04/Crestron-1.04.zip",
+      "Sha256": "65775cc5e4fdd454f1a105b498f13e6269f55fdeb67967f19f7b2ba452e9c46b",
+      "Size": 4960824,
       "RequiresReinstall": false,
-      "Notes": "",
+      "Notes": "Error reports go straight to the developer over the internet, with more detail and personal names and paths removed.",
       "Files": [
         {
           "Path": "CredentialPrompt.ps1",
@@ -127,7 +127,7 @@
         },
         {
           "Path": "Crestron-Updater.ps1",
-          "Sha256": "8fbb3b1ffaaccab3789f5184d9f1dadaec6198e321fb51372d338dd7b3c05c9b"
+          "Sha256": "c19b6681fca2a5c7a1ec2df7eb7c76680bea21405e24b9428c1c7e7cbd2dfc9c"
         },
         {
           "Path": "firmware-catalog.json",
@@ -167,15 +167,15 @@
         },
         {
           "Path": "reporting.json",
-          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+          "Sha256": "15325e6f878f88d04002a08aea093f93aea89b06e1795392d865fa2207e2a8a8"
         },
         {
           "Path": "Reporting.ps1",
-          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+          "Sha256": "91bb383d9bb1923497271f688acc7c9f3d073145ec10825c739e56fa716716e4"
         },
         {
           "Path": "settings-changes.json",
-          "Sha256": "d3b8a5d05882b0f8599b8dc1387eb5b2d2045213dcf630213d350e13c5906508"
+          "Sha256": "af873c771048fce0c0866e0b86b1696c34c6e3b3b2a3892b340c139175c63688"
         },
         {
           "Path": "Setup.cmd",
@@ -191,18 +191,18 @@
         },
         {
           "Path": "version.json",
-          "Sha256": "10f0ee704b6700a36eb8116bd2e82f650ea46010bedcd1a68a1a6f36d5e85496"
+          "Sha256": "e3f8f8887de4539c8fa3f4a41580cdd552dcad0230cc830a16dec3c1468e2746"
         }
       ]
     },
     {
       "Id": "Extron",
-      "Version": "1.03",
-      "Package": "Extron/1.03/Extron-1.03.zip",
-      "Sha256": "63094596b26478ff3bd1d93cd6ce83bd95d0861c27bffbdb1439e9c947381652",
-      "Size": 79809,
+      "Version": "1.04",
+      "Package": "Extron/1.04/Extron-1.04.zip",
+      "Sha256": "ceb7b270ff3dcbed66eb6f5ce0eab741c3de364ef5a72e338cb0581f059b3490",
+      "Size": 86318,
       "RequiresReinstall": false,
-      "Notes": "",
+      "Notes": "Error reports go straight to the developer over the internet, with more detail and personal names and paths removed.",
       "Files": [
         {
           "Path": "CredentialPrompt.ps1",
@@ -214,7 +214,7 @@
         },
         {
           "Path": "Extron-Updater.ps1",
-          "Sha256": "027c67fe50f56bdff26ee060430d4e11ad5292c98ebe3e95be3b9e105b7e4f25"
+          "Sha256": "bd2cdbb11f07f343ce380fd4b161f7f12ac9baeccfb1dc853e0752438f21be87"
         },
         {
           "Path": "Firmware-Picker.ps1",
@@ -234,15 +234,15 @@
         },
         {
           "Path": "reporting.json",
-          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+          "Sha256": "15325e6f878f88d04002a08aea093f93aea89b06e1795392d865fa2207e2a8a8"
         },
         {
           "Path": "Reporting.ps1",
-          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+          "Sha256": "91bb383d9bb1923497271f688acc7c9f3d073145ec10825c739e56fa716716e4"
         },
         {
           "Path": "settings-changes.json",
-          "Sha256": "b9e6adabd7e2fa5020db76b808726b51ed77b0ccb066459b4d3c41a14b04f9d3"
+          "Sha256": "cdbf6d7399378b2af24e6a3281156842586328df12d06101a9bee739f4663649"
         },
         {
           "Path": "Setup.cmd",
@@ -258,18 +258,18 @@
         },
         {
           "Path": "version.json",
-          "Sha256": "4ffb94231f5d50b58eb3324ae2baa146ddb83f6e06d093348bf1db55b66329b0"
+          "Sha256": "88f176c968cb49fa57c3be9b3c004a80cd17f8d61ffd7c4e49df5cfc2181ea67"
         }
       ]
     },
     {
       "Id": "Netgear",
-      "Version": "1.03",
-      "Package": "Netgear/1.03/Netgear-1.03.zip",
-      "Sha256": "09dd7142353083d566f77155da73874aeccb12ee6b5d8a052f5789d18100a267",
-      "Size": 45355,
+      "Version": "1.04",
+      "Package": "Netgear/1.04/Netgear-1.04.zip",
+      "Sha256": "250cfb2a93feed4f58a61f4495948f01155f2e4d093db965cfc948f48dfb7a5b",
+      "Size": 51765,
       "RequiresReinstall": false,
-      "Notes": "",
+      "Notes": "Error reports go straight to the developer over the internet, with more detail and personal names and paths removed.",
       "Files": [
         {
           "Path": "firmware-catalog.json",
@@ -285,7 +285,7 @@
         },
         {
           "Path": "Netgear-Updater.ps1",
-          "Sha256": "5247e880d6ad16899bdef701efe8e5e973120dc33ac7c96078f4afb49361f1a4"
+          "Sha256": "96129b8aa316dc71934e1a239a30fb9a15d085443416555aac0e8f8705669b58"
         },
         {
           "Path": "Options-NetgearUpdater.ps1",
@@ -293,15 +293,15 @@
         },
         {
           "Path": "reporting.json",
-          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+          "Sha256": "15325e6f878f88d04002a08aea093f93aea89b06e1795392d865fa2207e2a8a8"
         },
         {
           "Path": "Reporting.ps1",
-          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+          "Sha256": "91bb383d9bb1923497271f688acc7c9f3d073145ec10825c739e56fa716716e4"
         },
         {
           "Path": "settings-changes.json",
-          "Sha256": "ec13cc799a7fa0908a97cc74cc22c47fef4eb1bfbf4dc01fe07604be764873e7"
+          "Sha256": "c1ed6273c85206f0172d1e5b196f1128a2db1de299360be077289ea61d18397f"
         },
         {
           "Path": "Setup.cmd",
@@ -313,26 +313,26 @@
         },
         {
           "Path": "version.json",
-          "Sha256": "e4e60ec6fb190779c33f7a8c436305a6644f66c1500e0925033d05f61240e72f"
+          "Sha256": "ac86c608349be2630f4c365ee0a1473766b49e5ae838ab2186836f5165848615"
         }
       ]
     },
     {
       "Id": "AVUpdater",
-      "Version": "1.10",
-      "Package": "AVUpdater/1.10/AVUpdater-1.10.zip",
-      "Sha256": "46a80bc457cfad9fdef5ac2a8a652280e1e15d57e879e0b0af8f22313f113706",
-      "Size": 127987,
+      "Version": "1.11",
+      "Package": "AVUpdater/1.11/AVUpdater-1.11.zip",
+      "Sha256": "c7497610766dfc1013c296815ede454a6b81e38f582378e0091b7aad04c575a2",
+      "Size": 131309,
       "RequiresReinstall": false,
-      "Notes": "Special delivery from GitHub! If you can read this, the cloud works. Nothing else changed.",
+      "Notes": "Error reports now go straight to the developer over the internet instead of a shared folder. Reports carry more detail for fixing problems, with personal names and paths removed. Updaters: Q-Sys 1.05, others 1.04.",
       "Files": [
         {
           "Path": "AVUpdater.exe",
-          "Sha256": "a8b8f60136dac3233d3d7a3b0109e8ca11f8d51aefdbf76c33ac1831489b5b41"
+          "Sha256": "b81897ab07a399a1a19bb22b5b58f3bc1356343b005b67eeb79749f01d332182"
         },
         {
           "Path": "feed.json",
-          "Sha256": "49c7b3b30f8089b74fee491d4e5d9f403ff30d0d9f99ed79552e8679dd665e23"
+          "Sha256": "a9181485541ebbb94ced98648fa162b03a4087cb0f8a12211502cdfe5c7bd037"
         }
       ]
     }
