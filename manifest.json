@@ -1,0 +1,340 @@
+{
+  "FormatVersion": 1,
+  "PublishedUtc": "2026-11-15T01:45:12.5732109Z",
+  "Components": [
+    {
+      "Id": "QSys",
+      "Version": "1.03",
+      "Package": "QSys/1.03/QSys-1.03.zip",
+      "Sha256": "fe83ed76f0c6168c274c4967c9e2fabdf1359acad59379cb8db354fd4440de37",
+      "Size": 57405,
+      "RequiresReinstall": false,
+      "Notes": "",
+      "Files": [
+        {
+          "Path": "CredentialPrompt.ps1",
+          "Sha256": "b06c8c28b60abdedcdfb2fa6f9618f9889a51527b107b76b3d10b171cb58597e"
+        },
+        {
+          "Path": "Install-QSysUpdater.ps1",
+          "Sha256": "37091802a23b8856f25d7d9af731d80d685bfbf0595fc0846ad373419000d7f0"
+        },
+        {
+          "Path": "Options-QSysUpdater.ps1",
+          "Sha256": "1ed762dd71f597a02487e908589654d2efb0a7ac1336144d7f55315ee15e7fe4"
+        },
+        {
+          "Path": "products.json",
+          "Sha256": "eaaca23a2acbbaf8f9d498c8be1e849ced53e815e06c4e0bd5d36a9e5fe34a96"
+        },
+        {
+          "Path": "QSys-Updater.ps1",
+          "Sha256": "57166704d94a8aa707a4f24335a0e1862bcf4051de8c78a867e21325447c7392"
+        },
+        {
+          "Path": "reporting.json",
+          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+        },
+        {
+          "Path": "Reporting.ps1",
+          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+        },
+        {
+          "Path": "settings-changes.json",
+          "Sha256": "cc17ae19903c563b9407c08a61906012dfee9c697702adfbdb019a7d5a5f27de"
+        },
+        {
+          "Path": "Setup.cmd",
+          "Sha256": "cc6a7c2b2aba46092e6268ad655ac7d4427f2f1276b08d3d22b65f898d44defb"
+        },
+        {
+          "Path": "Show-QSysNotice.ps1",
+          "Sha256": "c2dddcfbebf3d8c28fed56ba200be21b5ca4b11b921c45160fea55803c10acac"
+        },
+        {
+          "Path": "Update-QSysPassword.ps1",
+          "Sha256": "64f277c8d3fde8abf18d00092a533ab1267839c33c7cc0f55d693ad08c095391"
+        },
+        {
+          "Path": "version.json",
+          "Sha256": "c6bf626510314736219ddd0710d4ff93cb466c76d68723249f8b94fdcaa4b8e6"
+        }
+      ]
+    },
+    {
+      "Id": "Biamp",
+      "Version": "1.03",
+      "Package": "Biamp/1.03/Biamp-1.03.zip",
+      "Sha256": "d2aab68d4df0f956a45a4f7276db6eda861edba6f18b8e1e36277798e6f9430e",
+      "Size": 48954,
+      "RequiresReinstall": false,
+      "Notes": "",
+      "Files": [
+        {
+          "Path": "Biamp-Updater.ps1",
+          "Sha256": "7ce260a64e8de5fe8177402c3f8635fb9389261c0bb1ae71f3adc3ecc4c7b74c"
+        },
+        {
+          "Path": "Install-BiampUpdater.ps1",
+          "Sha256": "110fa89308bf37c41df1c387b57b6ae0f6c6af03c76771f49453623e7500d074"
+        },
+        {
+          "Path": "Options-BiampUpdater.ps1",
+          "Sha256": "a09189a081bce3247138aaf64dfba93a6893639e7f96bcb46e3db6984e170d14"
+        },
+        {
+          "Path": "products.json",
+          "Sha256": "a327c855e3fb81b4007fac97fab1f5769e9474e86e83cb5a4737bfae0d0d16a2"
+        },
+        {
+          "Path": "reporting.json",
+          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+        },
+        {
+          "Path": "Reporting.ps1",
+          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+        },
+        {
+          "Path": "settings-changes.json",
+          "Sha256": "95ee731dc50ebd363fbb258ba6c8d865163a43ba57066938ec1df2ed1c7a4290"
+        },
+        {
+          "Path": "Setup.cmd",
+          "Sha256": "aa6accf845bb241e37ef158e8d8a2b8cb36f07a4d834d7eae8a0e9e67b26b9ec"
+        },
+        {
+          "Path": "Show-BiampNotice.ps1",
+          "Sha256": "d8a1c946ef97de79b61f40116489ce416ec51a4e461fe2947194008bfaf5560b"
+        },
+        {
+          "Path": "version.json",
+          "Sha256": "a6433b315edcf213bb2093d462106565635c7bbe9a2d8bf96f58b170a1d7829d"
+        }
+      ]
+    },
+    {
+      "Id": "Crestron",
+      "Version": "1.03",
+      "Package": "Crestron/1.03/Crestron-1.03.zip",
+      "Sha256": "df6e0b181bfb4e4a6d25c9b072762bf2e19184657e50f37344c7e8ad83ebd831",
+      "Size": 4954404,
+      "RequiresReinstall": false,
+      "Notes": "",
+      "Files": [
+        {
+          "Path": "CredentialPrompt.ps1",
+          "Sha256": "a7126aab8d5aac760e5b923fcbae2b6be8b33e0565b4ca944b7b17c429ffd3f0"
+        },
+        {
+          "Path": "Crestron-Updater.ps1",
+          "Sha256": "8fbb3b1ffaaccab3789f5184d9f1dadaec6198e321fb51372d338dd7b3c05c9b"
+        },
+        {
+          "Path": "firmware-catalog.json",
+          "Sha256": "1417d18d3d46a0d82edd99638d088965e4c20e556da14f879ae47e76630dd99c"
+        },
+        {
+          "Path": "Firmware-Picker.ps1",
+          "Sha256": "8d5da47b433076ff9227b4f535238f2538b088ae2a53362662c05a4dc85691e6"
+        },
+        {
+          "Path": "Install-CrestronUpdater.ps1",
+          "Sha256": "fa92194bc87c2a784dca258304ef9385edd31a99e10115307c3be2fd2942dfa4"
+        },
+        {
+          "Path": "lib/BouncyCastle.Cryptography.dll",
+          "Sha256": "a96969c7964648c24aba2795587ee448d07b50ca5212e9d8eade021eb0f0cef6"
+        },
+        {
+          "Path": "lib/Microsoft.Extensions.Logging.Abstractions.dll",
+          "Sha256": "29e6bfaf5ce079ad4d70dc547d966038992a7428df6e726084eb9010ec837715"
+        },
+        {
+          "Path": "lib/Renci.SshNet.dll",
+          "Sha256": "ce705466f6425837743583744335acc4d3bdcfb801a5998ec0c0026124fe46ed"
+        },
+        {
+          "Path": "lib/THIRD-PARTY.txt",
+          "Sha256": "39fc2fa4f98b2c4c021a42ddec4ab8eb316f17bf14b1df6d14e1294c8fc9c46a"
+        },
+        {
+          "Path": "Options-CrestronUpdater.ps1",
+          "Sha256": "cfd8638cbdd070802657f111e721207f24326dcdcb369d4c04e12956515d9835"
+        },
+        {
+          "Path": "products.json",
+          "Sha256": "911b1b7f17446d2a9492cfbf86552588cf0225982a1444c1a649a5c71b1601fa"
+        },
+        {
+          "Path": "reporting.json",
+          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+        },
+        {
+          "Path": "Reporting.ps1",
+          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+        },
+        {
+          "Path": "settings-changes.json",
+          "Sha256": "d3b8a5d05882b0f8599b8dc1387eb5b2d2045213dcf630213d350e13c5906508"
+        },
+        {
+          "Path": "Setup.cmd",
+          "Sha256": "04d6b2e35be65baf104a3943a9a7353cf5aa5520494d69ad1d602ee01f8a0159"
+        },
+        {
+          "Path": "Show-CrestronNotice.ps1",
+          "Sha256": "aa65f58118b54867eeab26dcdf37b49d14c4b557e7c8c7f85cbc8396acbf3b74"
+        },
+        {
+          "Path": "Update-CrestronPassword.ps1",
+          "Sha256": "443d3e763e1700eb1106e6434de8402f87009892f1fde9c30e380b234d255f5b"
+        },
+        {
+          "Path": "version.json",
+          "Sha256": "10f0ee704b6700a36eb8116bd2e82f650ea46010bedcd1a68a1a6f36d5e85496"
+        }
+      ]
+    },
+    {
+      "Id": "Extron",
+      "Version": "1.03",
+      "Package": "Extron/1.03/Extron-1.03.zip",
+      "Sha256": "63094596b26478ff3bd1d93cd6ce83bd95d0861c27bffbdb1439e9c947381652",
+      "Size": 79809,
+      "RequiresReinstall": false,
+      "Notes": "",
+      "Files": [
+        {
+          "Path": "CredentialPrompt.ps1",
+          "Sha256": "b0d275584adab6b3762effd67e611f5e50711581b138d8260e9e73734025dc61"
+        },
+        {
+          "Path": "devices.json",
+          "Sha256": "97863823cec95810089dded62e29f4251f036e8a93b12875c54a952c74ca9361"
+        },
+        {
+          "Path": "Extron-Updater.ps1",
+          "Sha256": "027c67fe50f56bdff26ee060430d4e11ad5292c98ebe3e95be3b9e105b7e4f25"
+        },
+        {
+          "Path": "Firmware-Picker.ps1",
+          "Sha256": "2eb4a776e6694fb87a4790971f750de9b7693fc3d8fe48e723b748a316738b5a"
+        },
+        {
+          "Path": "Install-ExtronUpdater.ps1",
+          "Sha256": "c82a4a7f6f1006608fad88e1a7ab44f0bb8416461453793e69685d5bd529cf95"
+        },
+        {
+          "Path": "Options-ExtronUpdater.ps1",
+          "Sha256": "d15429a8f2c61db3ae3abd03973c8abd5a6033a271b9894e670a7e2af708823d"
+        },
+        {
+          "Path": "products.json",
+          "Sha256": "d3bb90254084c558b2dba9e6b0143abecb02f59920c329c445156a4b64ac4f35"
+        },
+        {
+          "Path": "reporting.json",
+          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+        },
+        {
+          "Path": "Reporting.ps1",
+          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+        },
+        {
+          "Path": "settings-changes.json",
+          "Sha256": "b9e6adabd7e2fa5020db76b808726b51ed77b0ccb066459b4d3c41a14b04f9d3"
+        },
+        {
+          "Path": "Setup.cmd",
+          "Sha256": "205c86ed69c5369255eda8c50f52441730f69fcc8c6d069832691f8e65d4e9ff"
+        },
+        {
+          "Path": "Show-ExtronNotice.ps1",
+          "Sha256": "3fc2fa89eea7462c5833bfaf3ec4c3c684ca266bb8f6d546ed96f7f5f7a820a8"
+        },
+        {
+          "Path": "Update-ExtronPassword.ps1",
+          "Sha256": "f5b8d61720182bdaa425352f74d4c20506d15935b812e16000010761bf7adf3e"
+        },
+        {
+          "Path": "version.json",
+          "Sha256": "4ffb94231f5d50b58eb3324ae2baa146ddb83f6e06d093348bf1db55b66329b0"
+        }
+      ]
+    },
+    {
+      "Id": "Netgear",
+      "Version": "1.03",
+      "Package": "Netgear/1.03/Netgear-1.03.zip",
+      "Sha256": "09dd7142353083d566f77155da73874aeccb12ee6b5d8a052f5789d18100a267",
+      "Size": 45355,
+      "RequiresReinstall": false,
+      "Notes": "",
+      "Files": [
+        {
+          "Path": "firmware-catalog.json",
+          "Sha256": "3ee3bff7bfc545a30eef9c63a0cd2bb43a65d328a7d7d2f6f5d75fbea0eb45aa"
+        },
+        {
+          "Path": "Install-NetgearUpdater.ps1",
+          "Sha256": "2ea54188ea1f67b410b53b543ca2f5e9632125bd8f7f82f6f016fa5890325a58"
+        },
+        {
+          "Path": "Netgear-Catalog.ps1",
+          "Sha256": "21a01972daafe9c8de87dd0e149e8dbc0f6be7b059c7bf92ce5a2048b2234c59"
+        },
+        {
+          "Path": "Netgear-Updater.ps1",
+          "Sha256": "5247e880d6ad16899bdef701efe8e5e973120dc33ac7c96078f4afb49361f1a4"
+        },
+        {
+          "Path": "Options-NetgearUpdater.ps1",
+          "Sha256": "9e3ddf02013481302793dee79f51a3c81e8b7f53e283cb349697a007593e53d7"
+        },
+        {
+          "Path": "reporting.json",
+          "Sha256": "23be1ab558b0e82c7505090fea3bf4a2adde69363d1a569db45679f83473407a"
+        },
+        {
+          "Path": "Reporting.ps1",
+          "Sha256": "92f63a0d8e4687e9918301f08b27e2c28842d32ccf2ea4368e1e5daa8c9e8e70"
+        },
+        {
+          "Path": "settings-changes.json",
+          "Sha256": "ec13cc799a7fa0908a97cc74cc22c47fef4eb1bfbf4dc01fe07604be764873e7"
+        },
+        {
+          "Path": "Setup.cmd",
+          "Sha256": "b350c4b72939eeb6d730a6f44a4911422bb2c5a2acdf657ec2d3ba367376fe53"
+        },
+        {
+          "Path": "Show-NetgearNotice.ps1",
+          "Sha256": "936dbf7da76f63df29c969848e1b8e791fd235e9621eab5dd20cfd6a0777ca0f"
+        },
+        {
+          "Path": "version.json",
+          "Sha256": "e4e60ec6fb190779c33f7a8c436305a6644f66c1500e0925033d05f61240e72f"
+        }
+      ]
+    },
+    {
+      "Id": "AVUpdater",
+      "Version": "1.08",
+      "Package": "AVUpdater/1.08/AVUpdater-1.08.zip",
+      "Sha256": "5f20b11477b4842bb692253abbfe50cb7c9b4c2355ab198647c2b77727f08d21",
+      "Size": 126729,
+      "RequiresReinstall": false,
+      "Notes": "Installers in use are never moved or deleted; windows now fit their text.",
+      "Files": [
+        {
+          "Path": "AVUpdater.exe",
+          "Sha256": "35fd686a1b2042dc57fd042214979e35cc5c1614f4b0440359a41fc807e7ea58"
+        },
+        {
+          "Path": "feed.json",
+          "Sha256": "7672b2331ea3255a1a8acdb3725985c83f416df71e8d2052bfd24ca5d1bb64c8"
+        }
+      ]
+    }
+  ]
+}
