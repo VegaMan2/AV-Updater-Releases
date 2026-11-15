@@ -1,15 +1,15 @@
 {
   "FormatVersion": 1,
-  "PublishedUtc": "2026-11-15T01:45:12.5732109Z",
+  "PublishedUtc": "2026-11-15T18:16:17.6246181Z",
   "Components": [
     {
       "Id": "QSys",
-      "Version": "1.03",
-      "Package": "QSys/1.03/QSys-1.03.zip",
-      "Sha256": "fe83ed76f0c6168c274c4967c9e2fabdf1359acad59379cb8db354fd4440de37",
-      "Size": 57405,
+      "Version": "1.04",
+      "Package": "QSys/1.04/QSys-1.04.zip",
+      "Sha256": "f4731fc94679bd988dbea942af09bdde1c7072ded7a9f5ffad3b5214fcd5ee3c",
+      "Size": 63221,
       "RequiresReinstall": false,
-      "Notes": "",
+      "Notes": "Handles the Q-SYS \"not a robot\" check.",
       "Files": [
         {
           "Path": "CredentialPrompt.ps1",
@@ -29,7 +29,7 @@
         },
         {
           "Path": "QSys-Updater.ps1",
-          "Sha256": "57166704d94a8aa707a4f24335a0e1862bcf4051de8c78a867e21325447c7392"
+          "Sha256": "9e825263d531cb94f51a7e33f3cd9e8d97b8ac484c86e8a5768544b97cea1045"
         },
         {
           "Path": "reporting.json",
@@ -49,7 +49,7 @@
         },
         {
           "Path": "Show-QSysNotice.ps1",
-          "Sha256": "c2dddcfbebf3d8c28fed56ba200be21b5ca4b11b921c45160fea55803c10acac"
+          "Sha256": "fae2cb390f2932ac759f5b490dce08ea6bd53db46afbe9f6c7fe06ee7250ab69"
         },
         {
           "Path": "Update-QSysPassword.ps1",
@@ -57,7 +57,7 @@
         },
         {
           "Path": "version.json",
-          "Sha256": "c6bf626510314736219ddd0710d4ff93cb466c76d68723249f8b94fdcaa4b8e6"
+          "Sha256": "6393c4bbb570ca109bf884edbd5a5989d2a7ddf8320cce3cd97882f6db473903"
         }
       ]
     },
@@ -319,20 +319,20 @@
     },
     {
       "Id": "AVUpdater",
-      "Version": "1.08",
-      "Package": "AVUpdater/1.08/AVUpdater-1.08.zip",
-      "Sha256": "5f20b11477b4842bb692253abbfe50cb7c9b4c2355ab198647c2b77727f08d21",
-      "Size": 126729,
+      "Version": "1.10",
+      "Package": "AVUpdater/1.10/AVUpdater-1.10.zip",
+      "Sha256": "46a80bc457cfad9fdef5ac2a8a652280e1e15d57e879e0b0af8f22313f113706",
+      "Size": 127987,
       "RequiresReinstall": false,
-      "Notes": "Installers in use are never moved or deleted; windows now fit their text.",
+      "Notes": "Special delivery from GitHub! If you can read this, the cloud works. Nothing else changed.",
       "Files": [
         {
           "Path": "AVUpdater.exe",
-          "Sha256": "35fd686a1b2042dc57fd042214979e35cc5c1614f4b0440359a41fc807e7ea58"
+          "Sha256": "a8b8f60136dac3233d3d7a3b0109e8ca11f8d51aefdbf76c33ac1831489b5b41"
         },
         {
           "Path": "feed.json",
-          "Sha256": "7672b2331ea3255a1a8acdb3725985c83f416df71e8d2052bfd24ca5d1bb64c8"
+          "Sha256": "49c7b3b30f8089b74fee491d4e5d9f403ff30d0d9f99ed79552e8679dd665e23"
         }
       ]
     }
